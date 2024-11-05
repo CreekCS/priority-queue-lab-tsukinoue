@@ -28,7 +28,7 @@ public class PriorityQueueLab {
             return; 
         }
 
-        System.out.println("Priority Queue Items (sorted):");
+        System.out.println("Priority Queue Items:");
         while (!priorityQueue.isEmpty()) {
             System.out.println(priorityQueue.poll()); 
         }
